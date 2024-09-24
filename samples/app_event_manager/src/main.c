@@ -16,6 +16,7 @@ LOG_MODULE_REGISTER(MODULE);
 
 int main(void)
 {
+	/* comment for testing the plan */
 	if (app_event_manager_init()) {
 		LOG_ERR("Application Event Manager not initialized");
 	} else {
